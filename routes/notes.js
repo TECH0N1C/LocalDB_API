@@ -40,7 +40,7 @@ const noteRoutes = function(app, fs){
             writeFile(JSON.stringify(data, null, 2), function(){
                 res.status(200).send('new user added');
             });
-        });
+        }); 
 
     });
 };
